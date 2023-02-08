@@ -1,24 +1,36 @@
 #define _CRT_SECURE_NO_WARNINGS
-
 #include <stdio.h>
-
-
 /*
 int main() {
 
 	return 0;
 }
 */
+
 int main() {
-	// 计算两个数字的和
-	int num1 = 0;
-	int num2 = 0;
-	// 输入数据-使用输入函数 scanf
-	scanf("%d%d",&num1,&num2);
-	int sum = num1 + num2;
-	printf("sum = %d\n",sum);
+	// 字面常量，虽然不报错，但是没有什么意义
+	3.14;
+	"demo";
 	return 0;
 }
+
+//int a = 123;
+//int main() {
+//	// 对于内部大括号中的变量
+//	extern int cc;
+//	printf("%d\n",cc);
+//	return 0;
+//}
+//int main() {
+//	// 计算两个数字的和
+//	int num1 = 0;
+//	int num2 = 0;
+//	// 输入数据-使用输入函数 scanf
+//	scanf("%d%d",&num1,&num2);
+//	int sum = num1 + num2;
+//	printf("sum = %d\n",sum);
+//	return 0;
+//}
 
 
 //int a = 100;  // 局部变量-定义在代码块{} 之外的变量
